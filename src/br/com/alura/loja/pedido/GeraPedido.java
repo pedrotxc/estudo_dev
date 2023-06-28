@@ -3,18 +3,17 @@ package br.com.alura.loja.pedido;
 import java.math.BigDecimal;
 
 public class GeraPedido {
-	
+
 	private String cliente;
 	private BigDecimal valorOrcamento;
-	private Integer quantidadeItens;
-	
-	//injecao de dependencias: PedidoRepository, EmailService
-	public GeraPedido(String cliente, BigDecimal valorOrcamento, Integer quantidadeItens) {
+	private int quantidadeItens;
+
+	public GeraPedido(String cliente, BigDecimal valorOrcamento, int quantidadeItens) {
 		this.cliente = cliente;
 		this.valorOrcamento = valorOrcamento;
 		this.quantidadeItens = quantidadeItens;
 	}
-	
+
 	public String getCliente() {
 		return cliente;
 	}
@@ -23,7 +22,8 @@ public class GeraPedido {
 		return valorOrcamento;
 	}
 
-	public Integer getQuantidadeItens() {
+	public int getQuantidadeItens() {
 		return quantidadeItens;
 	}
+
 }
