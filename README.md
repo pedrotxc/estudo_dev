@@ -93,8 +93,8 @@ networks:
 _______________________________________________________________________________________________________________________  
 mysql no docker  
 1 - docker image pull mysql:5.7  
-2 - docker run -e MYSQL_ALLOW_EMPTY_PASSWORD=yes -v C:\Users\pedro\Projetos\MySQL_Volume:/var/lib/mysql mysql:5.7 
-2.1 - docker run -it --name banco-mysql -e MYSQL_ROOT_PASSWORD=123 -v C:\Users\pedro\OneDrive\Documentos\docker-volume:/var/lib/mysql -p 3306:3306 -d mysql:8.0 
+2 - docker run -e MYSQL_ALLOW_EMPTY_PASSWORD=yes -v C:\Users\pedro\Projetos\MySQL_Volume:/var/lib/mysql mysql:5.7  
+2.1 - docker run -it --name banco-mysql -e MYSQL_ROOT_PASSWORD=123 -v C:\Users\pedro\OneDrive\Documentos\docker-volume:/var/lib/mysql -p 3306:3306 -d mysql:8.0  
 3 - docker container inspect 0f2  
 4 - docker exec -it 0f2 bash  
 _______________________________________________________________________________________________________________________  
