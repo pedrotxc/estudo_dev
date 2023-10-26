@@ -1,6 +1,6 @@
 # estudo_dev
 
-Baixar o git no site -> https://git-scm.com/downloads
+<p>Baixar o git no site -> https://git-scm.com/downloads</p>
 Criar conta no github
 Abrir a pasta com o terminal do git ("git bash here")
 Configurar um usuario e nome global com os comandos 
